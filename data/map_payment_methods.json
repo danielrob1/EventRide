@@ -1,0 +1,26 @@
+[
+  {
+    "payment_method_id": 1,
+    "payment_method": "Tarjeta de Crédito",
+    "is_card": true,
+    "requires_auth": true
+  },
+  {
+    "payment_method_id": 2,
+    "payment_method": "Tarjeta de Débito",
+    "is_card": true,
+    "requires_auth": true
+  },
+  {
+    "payment_method_id": 3,
+    "payment_method": "Billetera Digital",
+    "is_card": false,
+    "requires_auth": false
+  },
+  {
+    "payment_method_id": 4,
+    "payment_method": "Efectivo",
+    "is_card": false,
+    "requires_auth": false
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "city_id": 1,
+    "city": "Madrid",
+    "state": "Comunidad de Madrid",
+    "region": "Centro"
+  },
+  {
+    "city_id": 2,
+    "city": "Barcelona",
+    "state": "Cataluña",
+    "region": "Este"
+  },
+  {
+    "city_id": 3,
+    "city": "Valencia",
+    "state": "Comunidad Valenciana",
+    "region": "Este"
+  },
+  {
+    "city_id": 4,
+    "city": "Sevilla",
+    "state": "Andalucía",
+    "region": "Sur"
+  },
+  {
+    "city_id": 5,
+    "city": "Zaragoza",
+    "state": "Aragón",
+    "region": "Noreste"
+  },
+  {
+    "city_id": 6,
+    "city": "Málaga",
+    "state": "Andalucía",
+    "region": "Sur"
+  },
+  {
+    "city_id": 7,
+    "city": "Murcia",
+    "state": "Región de Murcia",
+    "region": "Sureste"
+  },
+  {
+    "city_id": 8,
+    "city": "Palma de Mallorca",
+    "state": "Islas Baleares",
+    "region": "Islas"
+  },
+  {
+    "city_id": 9,
+    "city": "Bilbao",
+    "state": "País Vasco",
+    "region": "Norte"
+  },
+  {
+    "city_id": 10,
+    "city": "Valladolid",
+    "state": "Castilla y León",
+    "region": "Noroeste"
+  }
+]

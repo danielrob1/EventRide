@@ -1,0 +1,12 @@
+[
+  {
+    "ride_status_id": 1,
+    "ride_status": "Completado",
+    "is_completed": true
+  },
+  {
+    "ride_status_id": 2,
+    "ride_status": "Cancelado",
+    "is_completed": false
+  }
+]
