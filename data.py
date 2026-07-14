@@ -13,11 +13,11 @@ fake = Faker()
 
 # Mapeo de tipos de vehículos
 VEHICLE_TYPE_MAPPING = [
-    {'vehicle_type_id': 1, 'vehicle_type': 'X', 'description': 'Estándar', 'base_rate': 2.50, 'per_mile': 1.75, 'per_minute': 0.35},
-    {'vehicle_type_id': 2, 'vehicle_type': 'XL', 'description': 'Extra Grande', 'base_rate': 3.50, 'per_mile': 2.25, 'per_minute': 0.45},
-    {'vehicle_type_id': 3, 'vehicle_type': 'Shared', 'description': 'Viaje Compartido', 'base_rate': 2.00, 'per_mile': 1.50, 'per_minute': 0.30},
-    {'vehicle_type_id': 4, 'vehicle_type': 'Comfort', 'description': 'Cómodo', 'base_rate': 3.00, 'per_mile': 2.00, 'per_minute': 0.40},
-    {'vehicle_type_id': 5, 'vehicle_type': 'Golden', 'description': 'Premium', 'base_rate': 5.00, 'per_mile': 3.50, 'per_minute': 0.60}
+    {'vehicle_type_id': 1, 'vehicle_type': 'X', 'description': 'Estándar', 'base_rate': 2.50, 'per_km': 1.75, 'per_minute': 0.35},
+    {'vehicle_type_id': 2, 'vehicle_type': 'XL', 'description': 'Extra Grande', 'base_rate': 3.50, 'per_km': 2.25, 'per_minute': 0.45},
+    {'vehicle_type_id': 3, 'vehicle_type': 'Shared', 'description': 'Viaje Compartido', 'base_rate': 2.00, 'per_km': 1.50, 'per_minute': 0.30},
+    {'vehicle_type_id': 4, 'vehicle_type': 'Comfort', 'description': 'Cómodo', 'base_rate': 3.00, 'per_km': 2.00, 'per_minute': 0.40},
+    {'vehicle_type_id': 5, 'vehicle_type': 'Golden', 'description': 'Premium', 'base_rate': 5.00, 'per_km': 3.50, 'per_minute': 0.60}
 ]
 
 # Mapeo de métodos de pago
@@ -88,13 +88,13 @@ CANCELLATION_REASON_ID_MAP = {c['cancellation_reason']: c['cancellation_reason_i
 
 def generate_uber_ride_confirmation():
     
-    # Generar marcas de tiempo (timestamps)
+    # Generar timestamps
     pickup_time = datetime.now() - timedelta(days=random.randint(0, 30), hours=random.randint(0, 23))
     duration_minutes = random.randint(5, 120)
     dropoff_time = pickup_time + timedelta(minutes=duration_minutes)
     booking_time = pickup_time - timedelta(minutes=random.randint(1, 10))
     
-    # Distancia en millas
+    # Distancia en km
     distance = round(random.uniform(0.5, 50), 2)
     
     # Cálculo de tarifas/precios
