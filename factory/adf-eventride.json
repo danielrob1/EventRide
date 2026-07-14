@@ -1,0 +1,15 @@
+{
+	"name": "adf-eventride",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "spaincentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0c73403d-dead-40bb-ba7b-b6136b60a7ac",
+		"tenantId": "95745fa3-a323-41e0-bb91-3b536c27fadb"
+	}
+}
