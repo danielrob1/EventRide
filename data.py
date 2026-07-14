@@ -86,7 +86,7 @@ CANCELLATION_REASON_MAPPING = [
 CANCELLATION_REASON_ID_MAP = {c['cancellation_reason']: c['cancellation_reason_id'] for c in CANCELLATION_REASON_MAPPING}
 
 
-def generate_uber_ride_confirmation():
+def generate_ride_confirmation():
     
     # Generar timestamps
     pickup_time = datetime.now() - timedelta(days=random.randint(0, 30), hours=random.randint(0, 23))
