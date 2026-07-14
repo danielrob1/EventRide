@@ -1,0 +1,9 @@
+[
+    {
+        "body": "{\"ride_id\": \"99c9a737-423c-4918-8baf-12e849c19059\", \"confirmation_number\": \"Bg9-3791-Vd66\", \"passenger_id\": \"11d99c13-48a9-463e-8162-6f9a9115c7f7\", \"driver_id\": \"3e421153-c3a2-450a-ad08-89eca93ad939\", \"vehicle_id\": \"8b0f679b-fe34-491b-ace0-4e4e8f8b1cc7\", \"pickup_location_id\": \"a19b8508-f0ae-4dad-bad5-b4e22ba9d02b\", \"dropoff_location_id\": \"f2dadc9d-7ff4-4660-aac4-3921c13ada68\", \"vehicle_type_id\": 3, \"vehicle_make_id\": 3, \"payment_method_id\": 1, \"ride_status_id\": 1, \"pickup_city_id\": 4, \"dropoff_city_id\": 8, \"cancellation_reason_id\": 4, \"passenger_name\": \"Amanda Davis\", \"passenger_email\": \"sullivanshelby@example.org\", \"passenger_phone\": \"+1-565-360-9510x82891\", \"driver_name\": \"Marcus Cortez\", \"driver_rating\": 4.58, \"driver_phone\": \"001-217-415-9729x603\", \"driver_license\": \"cf-hOo-4932996\", \"vehicle_model\": \"No\", \"vehicle_color\": \"Negro\", \"license_plate\": \"fxl-9689\", \"pickup_address\": \"9558 Daniel Roads Apt. 840, Oconnorshire, LA 08635\", \"pickup_latitude\": -18.291286, \"pickup_longitude\": 168.696795, \"dropoff_address\": \"5650 Blackburn Alley Suite 718, Lake Jaredtown, PA 06124\", \"dropoff_latitude\": 11.461818, \"dropoff_longitude\": 127.937546, \"distance_miles\": 22.08, \"duration_minutes\": 117, \"booking_timestamp\": \"2026-06-28T22:24:18.113313\", \"pickup_timestamp\": \"2026-06-28T22:31:18.113313\", \"dropoff_timestamp\": \"2026-06-29T00:28:18.113313\", \"base_fare\": 2.5, \"distance_fare\": 38.64, \"time_fare\": 40.95, \"surge_multiplier\": 1.01, \"subtotal\": 82.91, \"tip_amount\": 2, \"total_fare\": 84.91, \"rating\": 3}",
+        "offset": "0",
+        "sequenceNumber": 0,
+        "enqueuedTimeUtc": "2026-07-14T11:31:20.753Z",
+        "partitionId": "0"
+    }
+]
