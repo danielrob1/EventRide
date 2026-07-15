@@ -3,60 +3,70 @@
     "city_id": 1,
     "city": "Madrid",
     "state": "Comunidad de Madrid",
-    "region": "Centro"
+    "region": "Centro",
+    "updated_at" :"2026-07-15T18:54:57.136+00:00"
   },
   {
     "city_id": 2,
     "city": "Barcelona",
     "state": "Cataluña",
-    "region": "Este"
+    "region": "Este",
+    "updated_at" :"2026-07-15T18:54:57.136+00:00"
   },
   {
     "city_id": 3,
     "city": "Valencia",
     "state": "Comunidad Valenciana",
-    "region": "Este"
+    "region": "Este",
+    "updated_at" :"2026-07-15T18:54:57.136+00:00"
   },
   {
     "city_id": 4,
     "city": "Sevilla",
     "state": "Andalucía",
-    "region": "Sur"
+    "region": "Sur",
+    "updated_at" :"2026-07-15T18:54:57.136+00:00"
   },
   {
     "city_id": 5,
     "city": "Zaragoza",
     "state": "Aragón",
-    "region": "Noreste"
+    "region": "Noreste",
+    "updated_at" :"2026-07-15T18:54:57.136+00:00"
   },
   {
     "city_id": 6,
     "city": "Málaga",
     "state": "Andalucía",
-    "region": "Sur"
+    "region": "Sur",
+    "updated_at" :"2026-07-15T18:54:57.136+00:00"
   },
   {
     "city_id": 7,
     "city": "Murcia",
     "state": "Región de Murcia",
-    "region": "Sureste"
+    "region": "Sureste",
+    "updated_at" :"2026-07-15T18:54:57.136+00:00"
   },
   {
     "city_id": 8,
     "city": "Palma de Mallorca",
     "state": "Islas Baleares",
-    "region": "Islas"
+    "region": "Islas",
+    "updated_at" :"2026-07-15T18:54:57.136+00:00"
   },
   {
     "city_id": 9,
     "city": "Bilbao",
     "state": "País Vasco",
-    "region": "Norte"
+    "region": "Norte",
+    "updated_at" :"2026-07-15T18:54:57.136+00:00"
   },
   {
     "city_id": 10,
     "city": "Valladolid",
     "state": "Castilla y León",
-    "region": "Noroeste"
+    "region": "Noroeste",
+    "updated_at" :"2026-07-15T18:54:57.136+00:00"
   }
 ]
