@@ -29,3 +29,5 @@ def rides_stream():
     df_parsed =df.withColumn("parsed_rides",from_json(col("rides"),rides_schema))\
     .select("parsed_rides.*")
     return df_parsed
+
+    

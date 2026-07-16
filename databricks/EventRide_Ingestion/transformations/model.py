@@ -91,4 +91,39 @@ dp.create_auto_cdc_flow(
     stored_as_scd_type=1,
 )
 
+# Dim Location
+@dp.table
+def dim_location_view():
+    df = spark.readStream.table("eventride.bronze.silver_obt")
+    df = df.select("pickup_city_id","pickup_city","city_updated_at","region","state",)
+    df = df.dropDuplicates(subset=['pickup_city_id','city_updated_at'])
+    return df
+
+dp.create_streaming_table("dim_location")
+dp.create_auto_cdc_flow(
+  target = "dim_location",
+  source = "dim_location_view",
+  keys = ["pickup_city_id"],
+  sequence_by = "city_updated_at",
+  stored_as_scd_type = 2,
+)
+
+
+# Fact Table
+@dp.view
+def fact_view():
+    df = spark.readStream.table("eventride.bronze.silver_obt")
+    df = spark.readStream.table("eventride.bronze.silver_obt")
+    df = df.select("ride_id","pickup_city_id","payment_method_id","driver_id","passenger_id","vehicle_id","distance_miles","duration_minutes","base_fare","distance_fare","time_fare","surge_multiplier","total_fare","tip_amount","rating","base_rate","per_km","per_minute")
+    return df
+
+dp.create_streaming_table("fact")
+dp.create_auto_cdc_flow(
+  target = "fact",
+  source = "fact_view",
+  keys = ["ride_id","pickup_city_id","payment_method_id","driver_id","passenger_id","vehicle_id"],
+  sequence_by = "ride_id",
+  stored_as_scd_type = 1,
+)
+
 
